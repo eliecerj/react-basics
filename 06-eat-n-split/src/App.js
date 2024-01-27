@@ -87,7 +87,7 @@ function FriendsList({ friends, onSelection, selectedFriend }) {
       {friends.map((friend) => (
         <Friend
           friend={friend}
-          key={friend.id}
+          // key={friend.id}
           onSelection={onSelection}
           selectedFriend={selectedFriend}
         />
